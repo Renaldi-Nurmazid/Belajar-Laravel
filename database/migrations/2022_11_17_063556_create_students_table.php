@@ -17,8 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('namalengkap');
             $table->string('nis',10)->unique();
-            $table->string('gender',1);
-            $table->unsignedBigInteger('class_id');
+            $table->string('jk',1);
             $table->timestamps();
         });
     }
